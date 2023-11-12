@@ -1,12 +1,19 @@
 #!/usr/bin/python3
 import sys
+import statistics
 
 def main():
-    total = 0
+    nums = []
     for line in sys.stdin:
-        total += float(line.strip())
+        nums.append(float(line.strip()))
 
-    print(f"合計: {total}")
+    if nums:
+        print(f"合計: {sum(nums)}")
+        print(f"平均: {statistics.mean(nums)}")
+        print(f"中央値: {statistics.median(nums)}")
+        print(f"最大値: {max(nums)}")
+        print(f"最小値: {min(nums)}")
+        print(f"数: {len(nums)}")
 
 if __name__ == "__main__":
     main()
