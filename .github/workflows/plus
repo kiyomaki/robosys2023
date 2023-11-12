@@ -8,7 +8,7 @@ def main():
         line = line.strip()
         if line:
             try:
-                num = int(line)
+                num = float(line)  # float型で数値を解析
                 nums.append(num)
             except ValueError:
                 print(f"無効な入力: '{line}' は数値ではありません。", file=sys.stderr)
