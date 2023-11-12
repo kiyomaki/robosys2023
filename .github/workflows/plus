@@ -3,8 +3,15 @@ import sys
 import statistics
 
 def main():
-    # 標準入力から数値を読み込む
-    nums = [int(line) for line in sys.stdin if line.strip()]
+    nums = []
+    for line in sys.stdin:
+        line = line.strip()
+        if line:
+            try:
+                num = int(line)
+                nums.append(num)
+            except ValueError:
+                print(f"無効な入力: '{line}' は数値ではありません。", file=sys.stderr)
 
     # 数値の統計情報を計算
     total = sum(nums)
