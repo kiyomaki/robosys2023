@@ -1,0 +1,34 @@
+#!/usr/bin/python3
+import sys
+import statistics
+
+def main():
+    nums = []
+    for line in sys.stdin:
+        line = line.strip()
+        if line:
+            try:
+                num = float(line)  # float型で数値を解析
+                nums.append(num)
+            except ValueError:
+                print(f"無効な入力: '{line}' は数値ではありません。", file=sys.stderr)
+
+    # 数値の統計情報を計算
+    total = sum(nums)
+    mean = statistics.mean(nums) if nums else 0
+    median = statistics.median(nums) if nums else 0
+    max_value = max(nums) if nums else 0
+    min_value = min(nums) if nums else 0
+    count = len(nums)
+
+    # 統計情報を出力
+    print(f"合計: {total}")
+    print(f"平均: {mean}")
+    print(f"中央値: {median}")
+    print(f"最大値: {max_value}")
+    print(f"最小値: {min_value}")
+    print(f"数: {count}")
+
+if __name__ == "__main__":
+    main()
+
