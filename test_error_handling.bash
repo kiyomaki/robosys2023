@@ -20,4 +20,3 @@ else
     echo "実際の出力: $out"
     exit 1
 fi
-
