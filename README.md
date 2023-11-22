@@ -43,10 +43,9 @@ $ cd robosys2023/
   最小値: 10.5
   数: 5
   ```
-## ライセンス
+## ライセンス・著作権
 - このソフトウェアは3条項BSDライセンスの下で再頒布および使用が許可されています。
 - このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを本人の許可を得て自身の著作としたものです．
    - https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022
-## 作成者
-© 2023 Makishi Kiyosawa
+- © 2023 Makishi Kiyosawa
 
