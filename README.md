@@ -3,6 +3,8 @@
 ## 概要
 `plusコマンド`は、標準入力から数値データを受け取り、その合計、平均、中央値、最大値、最小値、および要素数を計算して出力します。
 
+[![test](https://github.com/kiyomaki/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/kiyomaki/robosys2023/actions/workflows/test.yml)
+
 ## 機能
 - 標準入力から数値を読み取り、float型で統計情報を計算。
 - 合計、平均、中央値、最大値、最小値、数の計算機能。
