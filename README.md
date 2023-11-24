@@ -51,7 +51,7 @@ $ cd robosys2023/
   ```
 ## ライセンス・著作権
 - このソフトウェアは3条項BSDライセンスの下で再頒布および使用が許可されています。
-- このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを本人の許可を得て自身の著作としたものです．
+- このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）内のlesson3の`plus_stdinコマンド`を改良し、`plusコマンド`として本人の許可を得て自身の著作としたものです．
    - https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022
 - © 2023 Makishi Kiyosawa
 
