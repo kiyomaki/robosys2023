@@ -1,4 +1,4 @@
-#!/user/bin/bash
+#!/usr/bin/bash
 # SPDX-FileCopyrightText: 2023 Makishi Kiyosawa
 # SPDX-License-Identifier: BSD-3-Clause
 
