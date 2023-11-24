@@ -1,5 +1,6 @@
 #!/bin/bash
 # SPDX-FileCopyrightText: 2023 Makishi kiyosawa
+# SPDX-License-Identifier: BSD-3-Clause
 
 # plusプログラムに小数点を含む数値のリストを渡し、出力を変数に格納します。
 # この例では、10.5, 20.3, 30.2, 40.1, 50.0 という小数点を含む数値を使用しています。
