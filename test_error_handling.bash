@@ -1,4 +1,5 @@
 #!/bin/bash
+# SPDX-FileCopyrightText: 2023 Makishi Kiyosawa
 
 # plusプログラムの出力を変数に格納します。
 # この例では、正しい数値（10, 20, 30, 40, 50）と
