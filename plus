@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2023 Makishi Kiyosawa
 import sys
 import statistics
 
