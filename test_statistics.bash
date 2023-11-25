@@ -2,9 +2,9 @@
 # SPDX-FileCopyrightText: 2023 Makishi Kiyosawa
 # SPDX-License-Identifier: BSD-3-Clause
 
-# plusプログラムに数値のリストを渡し、出力を変数に格納します。
+# statsプログラムに数値のリストを渡し、出力を変数に格納します。
 # ここでは正しい数値（10, 20, 30, 40, 50）のみを渡しています。
-out=$(echo -e "10\n20\n30\n40\n50" | ./plus)
+out=$(echo -e "10\n20\n30\n40\n50" | ./stats)
 
 # 期待される出力を定義します。
 # この出力には、数値リストに基づく統計情報が含まれています。
