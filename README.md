@@ -51,7 +51,7 @@ $ cd robosys2023/
   ```
 ## ライセンス・著作権
 - このソフトウェアは3条項BSDライセンスの下で再頒布および使用が許可されています。
-- このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）内のlesson3の`plus_stdinコマンド`を改良し、`statsコマンド`として本人の許可を得て自身の著作としたものです．
+- この`statsコマンド`は、下記スライド（CC-BY-SA 4.0 by Ryuichi Ueda）内の`plus_stdinコマンド`を基に、統計機能を付与するべく開発されました。このコマンドは本人の許可を得て自身の著作としたものです．
    - https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022
 - © 2023 Makishi Kiyosawa
 
