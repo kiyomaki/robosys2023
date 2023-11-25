@@ -1,7 +1,7 @@
-# plusコマンド - 数値解析ツール
+# statsコマンド - 数値解析ツール
 
 ## 概要
-`plusコマンド`は、標準入力から数値データを受け取り、その合計、平均、中央値、最大値、最小値、および要素数を計算して出力します。
+`statsコマンド`は、標準入力から数値データを受け取り、その合計、平均、中央値、最大値、最小値、および要素数を計算して出力します。
 
 [![test](https://github.com/kiyomaki/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/kiyomaki/robosys2023/actions/workflows/test.yml)
 
@@ -25,7 +25,7 @@ $ cd robosys2023/
 
 - 直接数値を入力する場合：
   ```
-  echo -e "1\n2\n3\n4\n5" | ./plus
+  echo -e "1\n2\n3\n4\n5" | ./stats
   ```
   実行結果
   ```
@@ -38,7 +38,7 @@ $ cd robosys2023/
   ```
 - ファイルから数値を読み込む場合（`nums`ファイルには「10.5 20.4 30.3 40.2 50.1」が含まれている）
   ```
-  ./plus < nums
+  ./stats < nums
   ```
   実行結果
   ```
@@ -51,7 +51,7 @@ $ cd robosys2023/
   ```
 ## ライセンス・著作権
 - このソフトウェアは3条項BSDライセンスの下で再頒布および使用が許可されています。
-- このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）内のlesson3の`plus_stdinコマンド`を改良し、`plusコマンド`として本人の許可を得て自身の著作としたものです．
+- このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）内のlesson3の`plus_stdinコマンド`を改良し、`statsコマンド`として本人の許可を得て自身の著作としたものです．
    - https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022
 - © 2023 Makishi Kiyosawa
 
