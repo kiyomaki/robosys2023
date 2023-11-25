@@ -2,10 +2,10 @@
 # SPDX-FileCopyrightText: 2023 Makishi Kiyosawa
 # SPDX-License-Identifier: BSD-3-Clause
 
-# plusプログラムの出力を変数に格納します。
+# statsプログラムの出力を変数に格納します。
 # この例では、正しい数値（10, 20, 30, 40, 50）と
 # 誤った入力（'Bm7-5'）を含む入力をテストします。
-out=$(echo -e "10\n20\nBm7-5\n30\n40\n50" | ./plus 2>&1)
+out=$(echo -e "10\n20\nBm7-5\n30\n40\n50" | ./stats 2>&1)
 
 # 期待される出力を定義します。
 # この出力にはエラーメッセージと統計情報が含まれています。
